@@ -1,0 +1,30 @@
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.exe.config
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.exe
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.pdb
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.AssemblyReference.cache
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Login.resources
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Menu.resources
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Properties.Resources.resources
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Rol.resources
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.GenerateResource.cache
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.CoreCompileInputs.cache
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.exe
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.pdb
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.AsignarPermisos.resources
+C:\Users\Angelo\source\repos\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Usuario.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.exe.config
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.exe
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.pdb
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.AssemblyReference.cache
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.SuggestedBindingRedirects.cache
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.AsignarPermisos.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Login.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Menu.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Properties.Resources.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Rol.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Usuario.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.GenerateResource.cache
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.CoreCompileInputs.cache
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.exe
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.pdb
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Venta.resources
