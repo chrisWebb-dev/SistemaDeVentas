@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemadeVentas
 {
-    public partial class Usuario : Form
+    public partial class Categoria : Form
     {
-        public Usuario()
+        public Categoria()
         {
             InitializeComponent();
-        }
-
-        private void btn_cerrar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Usuario_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

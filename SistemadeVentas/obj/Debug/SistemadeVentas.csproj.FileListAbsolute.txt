@@ -28,3 +28,5 @@ D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVent
 D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.exe
 D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.pdb
 D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Venta.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Categoria.resources
+D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Producto.resources

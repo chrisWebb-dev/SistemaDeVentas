@@ -76,12 +76,14 @@ namespace SistemadeVentas
 
         private void btn_categoria_Click(object sender, EventArgs e)
         {
+            openPrincipal(new Categoria());
             //Codigo de la funcion del sistema arriba
             hideSubMenu();
         }
 
         private void btn_producto_Click(object sender, EventArgs e)
         {
+            openPrincipal(new Producto());
             //Codigo de la funcion del sistema arriba
             hideSubMenu();
         }
