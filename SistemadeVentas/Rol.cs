@@ -21,5 +21,18 @@ namespace SistemadeVentas
         {
             this.Close();
         }
+
+        private void btn_nuevo_Click(object sender, EventArgs e)
+        {
+            //Validar que no queden espacios en blanco
+
+            if (txt_nom.Text == "")
+            {
+                errorProvider1.SetError(txt_nom, "Debe ingresar el nombre");
+                txt_nom.Focus();
+                return;
+            }
+            errorProvider1.SetError(txt_nom, "");
+        }
     }
 }

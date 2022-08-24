@@ -29,55 +29,28 @@ namespace SistemadeVentas
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rol));
-            this.btn_nuevo = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_filtrar = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_buscar = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_nom = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_cerrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_modi = new System.Windows.Forms.Button();
+            this.btn_nuevo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_nuevo
-            // 
-            this.btn_nuevo.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btn_nuevo.Location = new System.Drawing.Point(176, 195);
-            this.btn_nuevo.Name = "btn_nuevo";
-            this.btn_nuevo.Size = new System.Drawing.Size(117, 34);
-            this.btn_nuevo.TabIndex = 0;
-            this.btn_nuevo.Text = "Nuevo";
-            this.btn_nuevo.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button2.Location = new System.Drawing.Point(176, 249);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button3.Location = new System.Drawing.Point(176, 301);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 34);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -89,16 +62,16 @@ namespace SistemadeVentas
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(653, 314);
+            this.dataGridView1.Size = new System.Drawing.Size(669, 314);
             this.dataGridView1.TabIndex = 4;
             // 
-            // comboBox1
+            // cb_filtrar
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(126, 39);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 28);
-            this.comboBox1.TabIndex = 5;
+            this.cb_filtrar.FormattingEnabled = true;
+            this.cb_filtrar.Location = new System.Drawing.Point(126, 39);
+            this.cb_filtrar.Name = "cb_filtrar";
+            this.cb_filtrar.Size = new System.Drawing.Size(156, 28);
+            this.cb_filtrar.TabIndex = 5;
             // 
             // label1
             // 
@@ -110,13 +83,13 @@ namespace SistemadeVentas
             this.label1.TabIndex = 6;
             this.label1.Text = "Filtrar por:";
             // 
-            // textBox1
+            // txt_buscar
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(521, 40);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(149, 27);
-            this.textBox1.TabIndex = 8;
+            this.txt_buscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_buscar.Location = new System.Drawing.Point(537, 40);
+            this.txt_buscar.Name = "txt_buscar";
+            this.txt_buscar.Size = new System.Drawing.Size(149, 27);
+            this.txt_buscar.TabIndex = 8;
             // 
             // label3
             // 
@@ -125,17 +98,17 @@ namespace SistemadeVentas
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(17, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.Size = new System.Drawing.Size(73, 20);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Nombre";
+            this.label3.Text = "Nombre:";
             // 
-            // textBox2
+            // txt_nom
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox2.Location = new System.Drawing.Point(106, 136);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(187, 27);
-            this.textBox2.TabIndex = 10;
+            this.txt_nom.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txt_nom.Location = new System.Drawing.Point(106, 136);
+            this.txt_nom.Name = "txt_nom";
+            this.txt_nom.Size = new System.Drawing.Size(187, 27);
+            this.txt_nom.TabIndex = 10;
             // 
             // panel1
             // 
@@ -167,11 +140,11 @@ namespace SistemadeVentas
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btn_eliminar);
+            this.groupBox1.Controls.Add(this.btn_modi);
             this.groupBox1.Controls.Add(this.btn_nuevo);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.txt_nom);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(726, 73);
             this.groupBox1.Name = "groupBox1";
@@ -186,16 +159,65 @@ namespace SistemadeVentas
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.txt_buscar);
+            this.groupBox2.Controls.Add(this.cb_filtrar);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 73);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(692, 425);
+            this.groupBox2.Size = new System.Drawing.Size(708, 425);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Lista de roles:";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_eliminar.BackColor = System.Drawing.Color.White;
+            this.btn_eliminar.FlatAppearance.BorderSize = 0;
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminar.Image = global::SistemadeVentas.Properties.Resources.basura;
+            this.btn_eliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_eliminar.Location = new System.Drawing.Point(62, 305);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(194, 43);
+            this.btn_eliminar.TabIndex = 21;
+            this.btn_eliminar.Text = "Eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = false;
+            // 
+            // btn_modi
+            // 
+            this.btn_modi.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_modi.BackColor = System.Drawing.Color.White;
+            this.btn_modi.FlatAppearance.BorderSize = 0;
+            this.btn_modi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_modi.Image = global::SistemadeVentas.Properties.Resources.lapiz;
+            this.btn_modi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_modi.Location = new System.Drawing.Point(62, 256);
+            this.btn_modi.Name = "btn_modi";
+            this.btn_modi.Size = new System.Drawing.Size(194, 43);
+            this.btn_modi.TabIndex = 20;
+            this.btn_modi.Text = "Modificar";
+            this.btn_modi.UseVisualStyleBackColor = false;
+            // 
+            // btn_nuevo
+            // 
+            this.btn_nuevo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_nuevo.BackColor = System.Drawing.Color.White;
+            this.btn_nuevo.FlatAppearance.BorderSize = 0;
+            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_nuevo.Image = global::SistemadeVentas.Properties.Resources.boton_agregar__1_;
+            this.btn_nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_nuevo.Location = new System.Drawing.Point(62, 207);
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.Size = new System.Drawing.Size(194, 43);
+            this.btn_nuevo.TabIndex = 19;
+            this.btn_nuevo.Text = "Nuevo";
+            this.btn_nuevo.UseVisualStyleBackColor = false;
             // 
             // Rol
             // 
@@ -214,24 +236,25 @@ namespace SistemadeVentas
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_nuevo;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_filtrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_buscar;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_nom;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_cerrar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button btn_modi;
+        private System.Windows.Forms.Button btn_nuevo;
     }
 }

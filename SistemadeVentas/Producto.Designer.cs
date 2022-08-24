@@ -28,51 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Producto));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cb_categoria = new System.Windows.Forms.ComboBox();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
+            this.txt_nom = new System.Windows.Forms.TextBox();
+            this.txt_desc = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cb_filtrar = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_buscar = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.btn_cerrar = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_modi = new System.Windows.Forms.Button();
+            this.btn_nuevo = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.btn_eliminar);
+            this.groupBox2.Controls.Add(this.btn_modi);
+            this.groupBox2.Controls.Add(this.btn_nuevo);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.cb_categoria);
+            this.groupBox2.Controls.Add(this.txt_codigo);
+            this.groupBox2.Controls.Add(this.txt_nom);
+            this.groupBox2.Controls.Add(this.txt_desc);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(741, 108);
+            this.groupBox2.Location = new System.Drawing.Point(699, 108);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(302, 414);
+            this.groupBox2.Size = new System.Drawing.Size(344, 428);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Ingresar Producto:";
@@ -82,7 +85,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 83);
+            this.label1.Location = new System.Drawing.Point(30, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 20);
             this.label1.TabIndex = 2;
@@ -93,96 +96,66 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(15, 120);
+            this.label2.Location = new System.Drawing.Point(30, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nombre:";
-            // 
-            // button4
-            // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button4.Location = new System.Drawing.Point(95, 330);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(117, 34);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Eliminar";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(15, 157);
+            this.label3.Location = new System.Drawing.Point(30, 171);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Descripción:";
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button2.Location = new System.Drawing.Point(171, 279);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 34);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(15, 193);
+            this.label4.Location = new System.Drawing.Point(30, 207);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Categoría:";
             // 
-            // button1
+            // cb_categoria
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button1.Location = new System.Drawing.Point(19, 279);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 34);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Nuevo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.cb_categoria.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.cb_categoria.FormattingEnabled = true;
+            this.cb_categoria.Location = new System.Drawing.Point(147, 202);
+            this.cb_categoria.Name = "cb_categoria";
+            this.cb_categoria.Size = new System.Drawing.Size(156, 28);
+            this.cb_categoria.TabIndex = 11;
             // 
-            // comboBox1
+            // txt_codigo
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(132, 188);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 28);
-            this.comboBox1.TabIndex = 11;
+            this.txt_codigo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txt_codigo.Location = new System.Drawing.Point(147, 95);
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(156, 27);
+            this.txt_codigo.TabIndex = 7;
             // 
-            // textBox1
+            // txt_nom
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox1.Location = new System.Drawing.Point(132, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 27);
-            this.textBox1.TabIndex = 7;
+            this.txt_nom.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txt_nom.Location = new System.Drawing.Point(147, 132);
+            this.txt_nom.Name = "txt_nom";
+            this.txt_nom.Size = new System.Drawing.Size(156, 27);
+            this.txt_nom.TabIndex = 8;
             // 
-            // textBox2
+            // txt_desc
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox2.Location = new System.Drawing.Point(132, 118);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 27);
-            this.textBox2.TabIndex = 8;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox3.Location = new System.Drawing.Point(132, 155);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(156, 27);
-            this.textBox3.TabIndex = 9;
+            this.txt_desc.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txt_desc.Location = new System.Drawing.Point(147, 169);
+            this.txt_desc.Name = "txt_desc";
+            this.txt_desc.Size = new System.Drawing.Size(156, 27);
+            this.txt_desc.TabIndex = 9;
             // 
             // groupBox1
             // 
@@ -190,25 +163,25 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.cb_filtrar);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txt_buscar);
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 108);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(723, 414);
+            this.groupBox1.Size = new System.Drawing.Size(681, 428);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista de Roles:";
             // 
-            // comboBox2
+            // cb_filtrar
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(127, 37);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(162, 28);
-            this.comboBox2.TabIndex = 14;
+            this.cb_filtrar.FormattingEnabled = true;
+            this.cb_filtrar.Location = new System.Drawing.Point(127, 37);
+            this.cb_filtrar.Name = "cb_filtrar";
+            this.cb_filtrar.Size = new System.Drawing.Size(162, 28);
+            this.cb_filtrar.TabIndex = 14;
             // 
             // label7
             // 
@@ -220,12 +193,12 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Filtrar por:";
             // 
-            // textBox5
+            // txt_buscar
             // 
-            this.textBox5.Location = new System.Drawing.Point(336, 37);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(156, 27);
-            this.textBox5.TabIndex = 17;
+            this.txt_buscar.Location = new System.Drawing.Point(336, 37);
+            this.txt_buscar.Name = "txt_buscar";
+            this.txt_buscar.Size = new System.Drawing.Size(156, 27);
+            this.txt_buscar.TabIndex = 17;
             // 
             // dataGridView1
             // 
@@ -237,7 +210,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(684, 305);
+            this.dataGridView1.Size = new System.Drawing.Size(642, 319);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel1
@@ -249,6 +222,10 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1055, 50);
             this.panel1.TabIndex = 20;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // btn_cerrar
             // 
@@ -263,6 +240,52 @@
             this.btn_cerrar.Size = new System.Drawing.Size(42, 42);
             this.btn_cerrar.TabIndex = 14;
             this.btn_cerrar.UseVisualStyleBackColor = false;
+            this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_eliminar.BackColor = System.Drawing.Color.White;
+            this.btn_eliminar.FlatAppearance.BorderSize = 0;
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminar.Image = global::SistemadeVentas.Properties.Resources.basura;
+            this.btn_eliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_eliminar.Location = new System.Drawing.Point(78, 352);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(194, 43);
+            this.btn_eliminar.TabIndex = 18;
+            this.btn_eliminar.Text = "Eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = false;
+            // 
+            // btn_modi
+            // 
+            this.btn_modi.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_modi.BackColor = System.Drawing.Color.White;
+            this.btn_modi.FlatAppearance.BorderSize = 0;
+            this.btn_modi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_modi.Image = global::SistemadeVentas.Properties.Resources.lapiz;
+            this.btn_modi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_modi.Location = new System.Drawing.Point(78, 303);
+            this.btn_modi.Name = "btn_modi";
+            this.btn_modi.Size = new System.Drawing.Size(194, 43);
+            this.btn_modi.TabIndex = 17;
+            this.btn_modi.Text = "Modificar";
+            this.btn_modi.UseVisualStyleBackColor = false;
+            // 
+            // btn_nuevo
+            // 
+            this.btn_nuevo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_nuevo.BackColor = System.Drawing.Color.White;
+            this.btn_nuevo.FlatAppearance.BorderSize = 0;
+            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_nuevo.Image = global::SistemadeVentas.Properties.Resources.boton_agregar__1_;
+            this.btn_nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_nuevo.Location = new System.Drawing.Point(78, 254);
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.Size = new System.Drawing.Size(194, 43);
+            this.btn_nuevo.TabIndex = 16;
+            this.btn_nuevo.Text = "Nuevo";
+            this.btn_nuevo.UseVisualStyleBackColor = false;
             // 
             // Producto
             // 
@@ -281,6 +304,7 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -290,21 +314,22 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ComboBox cb_categoria;
+        private System.Windows.Forms.TextBox txt_codigo;
+        private System.Windows.Forms.TextBox txt_nom;
+        private System.Windows.Forms.TextBox txt_desc;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cb_filtrar;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_buscar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_cerrar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button btn_modi;
+        private System.Windows.Forms.Button btn_nuevo;
     }
 }

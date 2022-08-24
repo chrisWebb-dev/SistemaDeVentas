@@ -30,3 +30,21 @@ D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVent
 D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Venta.resources
 D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Categoria.resources
 D:\Trabajos de la U\Tienda de bryan\PROYECTO NUEVO\SistemadeVentas\SistemadeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Producto.resources
+D:\github\SistemaDeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.exe.config
+D:\github\SistemaDeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.exe
+D:\github\SistemaDeVentas\SistemadeVentas\bin\Debug\SistemadeVentas.pdb
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.AssemblyReference.cache
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.SuggestedBindingRedirects.cache
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.AsignarPermisos.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Categoria.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Login.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Menu.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Producto.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Properties.Resources.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Rol.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Usuario.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.Venta.resources
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.GenerateResource.cache
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.csproj.CoreCompileInputs.cache
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.exe
+D:\github\SistemaDeVentas\SistemadeVentas\obj\Debug\SistemadeVentas.pdb

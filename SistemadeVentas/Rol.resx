@@ -121,7 +121,7 @@
   <data name="btn_cerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6wAAAOsBK2zXwgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAN2SURBVFhH7Zdt
+        5wAAAOcB8BtYtQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAN2SURBVFhH7Zdt
         S5RbFIangj4EvSAIFRWl1lBmWXZMzrxompbNjBb0Qgcj+hUb4gRBcdh/4HCwfkLNjFjaNDhayVCmqQ0W
         QoVUFAWRnpnp27PX3Xp0TU1M5ktMEnXD/rLXhnU9+9n7Xns5Mlr2BoHlr6mn4AWlC8cIa54S1o8SNj0i
         lCQIziHCtgeEsvuE8nuEijihspdQdYvg6iZ4ugjVUcK+CKHuBqG+g9BwjXCwnXCojeALE/xhSgdC1B0I
@@ -139,4 +139,7 @@
         JBU3pxd/dHPKdnxhMnlG3J77l7+iGAOk8giQYoDYpy93OBwfARnCx07C7gv5AAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
